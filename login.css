@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    background: url(https://i.pinimg.com/474x/99/ed/20/99ed20b0aa24443f79850ad8a9c2f017.jpg);
+    background-size: cover; /* Gambar akan membentang menutupi seluruh area */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+
+    background-color: rgb(180, 209, 213);
+    padding: 50px 30px;
+    width: 300px;
+    border: black;
+    box-shadow: -10px 10px 10px black; 
+    border-style:solid;
+   
+}
+
+
+h1{
+    margin: (px);
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+label,input, .span{
+    display: block;
+}
+
+
+button {
+    background-color: #587896;
+    color: rgb(57, 62, 77);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    border: black;
+    box-shadow: -5px 5px 15px black; 
+    
+  }
+
+  p{
+    margin: (px);
+    font-style: italic;
+    font-size: 15px;
+    font-family: "Poppins";
+    text-align: center;
+  }
+
+  label{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+  }
+
+  input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    font-size: 10px;
+    border: 2px solid rgb(115, 140, 153);
+    border-radius: 10px;
+   
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: rgb(154, 154, 241);
+  }
+
+  span{
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .error, .success {
+    font-size: 24px;
+    font-style: normal;
+  }
+  .success {
+    color: rgb(28, 188, 47);
+  }
+
+  p b {
+    color: rgb(203, 39, 39);
+  }
